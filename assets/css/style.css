@@ -44,3 +44,11 @@ ul {
 	
 }
 
+#hero-image {
+	background-image: url("../images/idea-heroimage-comp.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100px;
+}
