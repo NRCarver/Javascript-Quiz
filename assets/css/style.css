@@ -1,9 +1,9 @@
 body {
-    background-color: red;
+    background-color: skyblue;
     font-family: 'EB Garamond','Nova Square', serif;
     padding: 0%;
     margin: 0%;
-    padding-top: 100px;
+    padding-top: 78px;
 }
 
 header {
@@ -24,6 +24,7 @@ ul {
     top: 0;
     height: 100px;
     width: 100%;
+	z-index: 999;
 }
 
 .menu {
@@ -45,10 +46,37 @@ ul {
 }
 
 #hero-image {
-	background-image: url("../images/idea-heroimage-comp.jpg");
+	background-image: url("../images/questionmark-background-resized.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 100px;
+	height: 600px;
+}
+
+.intro-box {
+	margin-left: 80px;
+}
+
+.intro-title {
+	align-content: center;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.intro-text-left {
+	
+	max-width: 225px;
+	background-color: skyblue;
+	padding: 20px;
+	border-radius: 1rem;
+	line-height: 1.6;
+	float: left;
+	margin: 10px;
+}
+
+.game-box {
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
 }
